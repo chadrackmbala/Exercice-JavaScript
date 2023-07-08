@@ -103,3 +103,29 @@
 // }
 
 // console.log(afficheLesDixNombresSuivants(19));
+
+//Algorithme qui écrit la table de multiplication d'un chiffre enntré
+
+// function tableDeMultiplication (nombreDeDepart) {
+//     console.log(`${nombreDeDepart} x 1 = ${nombreDeDepart * 1}`);
+//     console.log(`${nombreDeDepart} x 2 = ${nombreDeDepart * 2}`);
+//     console.log(`${nombreDeDepart} x 3 = ${nombreDeDepart * 3}`);
+//     console.log(`${nombreDeDepart} x 4 = ${nombreDeDepart * 4}`);
+//     console.log(`${nombreDeDepart} x 5 = ${nombreDeDepart * 5}`);
+//     console.log(`${nombreDeDepart} x 6 = ${nombreDeDepart * 6}`);
+//     console.log(`${nombreDeDepart} x 7 = ${nombreDeDepart * 7}`);
+//     console.log(`${nombreDeDepart} x 8 = ${nombreDeDepart * 8}`);
+//     console.log(`${nombreDeDepart} x 9 = ${nombreDeDepart * 9}`);
+// }
+
+// console.log('Table de 5');
+// tableDeMultiplication(5);
+// console.log('Table de 6');
+// tableDeMultiplication(6);
+// console.log('Table de 7');
+// tableDeMultiplication(7);
+// console.log('Table de 8');
+// tableDeMultiplication(8);
+// console.log('Table de 9');
+// tableDeMultiplication(9);
+
