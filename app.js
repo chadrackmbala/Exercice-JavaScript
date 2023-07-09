@@ -141,22 +141,47 @@
 
 // calculDeLaSomme(5);
 
-let marqueVoiture = voiture => {
-    switch(voiture) {
-        case 'Toyota':
-        console.log(`Votre voiture une ${voiture} !`);
-        break;
-        case 'Mazda':
-        console.log(`Votre voiture une ${voiture} !`);
-        break;
-        case 'Suzuki':
-        console.log(`Votre voiture une ${voiture} !`);
-        break;
-        case 'Rav4':
-        console.log(`Votre voiture une ${voiture} !`);
-        break;
-        default: console.log('Votre voiture n\'existe pas dans notre base de données !')
-    }
+// let marqueVoiture = voiture => {
+//     switch(voiture) {
+//         case 'Toyota':
+//         console.log(`Votre voiture une ${voiture} !`);
+//         break;
+//         case 'Mazda':
+//         console.log(`Votre voiture une ${voiture} !`);
+//         break;
+//         case 'Suzuki':
+//         console.log(`Votre voiture une ${voiture} !`);
+//         break;
+//         case 'Rav4':
+//         console.log(`Votre voiture une ${voiture} !`);
+//         break;
+//         default: console.log('Votre voiture n\'existe pas dans notre base de données !')
+//     }
+// }
+
+// marqueVoiture('Rav4');
+
+// const tableau = ['Toyota', 'Mazda', 'Suzuki', 'Rav4', 'Lexus'];
+
+// function triage (voitureRecherchee) {
+//     for (voiture of tableau) {
+//         if(voiture == voitureRecherchee) {
+//             return `Votre ${voiture} est retrouvée !`
+//         }
+//         return 'Votre voiture n\'a pas été retrouvée, désolé !'
+//     }
+// }
+
+// console.log(triage('Suzuki'));
+
+let tableau = ["Chadrack", "Joe", "Gregory", "Deborah", "Ursula", "Fred", "Josué"];
+
+function fundEtidiant (etudiantRecherche) {
+    for (nomEtudiant of tableau) {
+        if (nomEtudiant == etudiantRecherche) {
+            return `Etudiant ${nomEtudiant} retrouvé !`
+        }
+    } return `Etudiant introuvable !`;
 }
 
-marqueVoiture('Lexus');
+console.log(fundEtidiant("Josué"));
