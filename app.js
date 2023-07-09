@@ -118,6 +118,8 @@
 //     console.log(`${nombreDeDepart} x 9 = ${nombreDeDepart * 9}`);
 // }
 
+
+
 // console.log('Table de 5');
 // tableDeMultiplication(5);
 // console.log('Table de 6');
@@ -129,3 +131,32 @@
 // console.log('Table de 9');
 // tableDeMultiplication(9);
 
+//Calcul de la somme des entiers jusqu'au nombre démandé
+
+// let nombreFinal;
+
+// function calculDeLaSomme (nombre) {
+    
+// }
+
+// calculDeLaSomme(5);
+
+let marqueVoiture = voiture => {
+    switch(voiture) {
+        case 'Toyota':
+        console.log(`Votre voiture une ${voiture} !`);
+        break;
+        case 'Mazda':
+        console.log(`Votre voiture une ${voiture} !`);
+        break;
+        case 'Suzuki':
+        console.log(`Votre voiture une ${voiture} !`);
+        break;
+        case 'Rav4':
+        console.log(`Votre voiture une ${voiture} !`);
+        break;
+        default: console.log('Votre voiture n\'existe pas dans notre base de données !')
+    }
+}
+
+marqueVoiture('Lexus');
