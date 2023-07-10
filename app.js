@@ -1,3 +1,20 @@
+//Boucle imbriquée
+
+// const bobsFollowers = ['Chadrack', 'Joyce', 'Christy', 'Barckley'];
+
+// const tinasFollowers = ['Danie', 'Joyce', 'Christy'];
+
+// const mutualFollowers = [];
+
+// for (let i = 0; i < bobsFollowers.length; i++) {
+//   for (let j = 0; j < tinasFollowers.length; j++) {
+//     if (bobsFollowers[i] === tinasFollowers[j]) {
+//       console.log(mutualFollowers.push( tinasFollowers[i]));
+//     }
+//   }
+// }
+// console.log(mutualFollowers);
+
 //Addition de deux nombres
 
 // function additionDeDeuxNombres (premierNombre, secondNombre) {
