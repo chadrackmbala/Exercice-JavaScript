@@ -31,12 +31,12 @@
 // }
 
 
- //Opérateur ternaire 
+//Opérateur ternaire 
 
 //  let tableau = ["Chadrack", "Joe", "Gregory", "Deborah", "Ursula", "Fred", "Josué"];
 
 //  let etudiant = "Chadrack";
- 
+
 //  etudiant == "Chadrackj" ? console.log(`Etudiant ${etudiant} retrouvé !`)
 //  : console.log('Etudiant introuvable !');
 
@@ -153,7 +153,7 @@
 // let nombreFinal;
 
 // function calculDeLaSomme (nombre) {
-    
+
 // }
 
 // calculDeLaSomme(5);
@@ -191,23 +191,130 @@
 
 // console.log(triage('Suzuki'));
 
-let tableau = ["Chadrack", "Joe", "Gregory", "Deborah", "Ursula", "Fred", "Josué"];
+// let tableau = ["Chadrack", "Joe", "Gregory", "Deborah", "Ursula", "Fred", "Josué"];
 
-function fundEtidiant (etudiantRecherche) {
-    for (nomEtudiant of tableau) {
-        if (nomEtudiant == etudiantRecherche) {
-            return `Etudiant ${nomEtudiant} retrouvé !`
-        }
-    } return `Etudiant introuvable !`;
-}
+// function fundEtidiant (etudiantRecherche) {
+//     for (nomEtudiant of tableau) {
+//         if (nomEtudiant == etudiantRecherche) {
+//             return `Etudiant ${nomEtudiant} retrouvé !`
+//         }
+//     } return `Etudiant introuvable !`;
+// }
 
-console.log(fundEtidiant("Josué"));
+// console.log(fundEtidiant("Josué"));
 
 //For 
-const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+// const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 
 // Write your code below
 
 // for(let i = 0; i < vacationSpots.length; i++) {
 //   console.log(`I would love to visit ${vacationSpots[i]}`);
 // }
+
+// Boucle While avec l'objet Math
+
+// console.log(Math.floor(Math.random() * 2));
+
+// const cards = ['diamond', 'spade', 'heart', 'club'];
+
+// let currentCard;
+
+// while (currentCard !== 'spade') {
+//     console.log(currentCard = cards[Math.floor(Math.random() * 4)]);
+// }
+
+// console.log(`Aujourd'hui, c'est : mardi.`);
+// console.log(`L'heure actuelle est : 10h : 00 : 38`);
+
+// var today = new Date();
+// var day = today.getDay();
+// console.log(day)
+// var daylist = ["Sunday", "Monday", "Tuesday", "Wednesday ", "Thursday", "Friday", "Saturday"];
+// console.log("Today is : " + daylist[day] + ".");
+// var hour = today.getHours();
+// var minute = today.getMinutes();    
+// var second = today.getSeconds();
+// var prepand = (hour >= 12) ? " PM " : " AM ";
+// hour = (hour >= 12) ? hour - 12 : hour;
+// if (hour === 0 && prepand === ' PM ') {
+//     if (minute === 0 && second === 0) {
+//         hour = 12;
+//         prepand = ' Noon';
+//     }
+//     else {
+//         hour = 12;
+//         prepand = ' PM';
+//     }
+// }
+// if (hour === 0 && prepand === ' AM ') {
+//     if (minute === 0 && second === 0) {
+//         hour = 12;
+//         prepand = ' Midnight';
+//     }
+//     else {
+//         hour = 12;
+//         prepand = ' AM';
+//     }
+// }
+// console.log("Current Time : " + hour + prepand + " : " + minute + " : " + second);
+
+//
+
+// function print_current_page()
+// {
+// window.print();
+// }
+
+
+// let tableauCancer = [];
+// let maladie = "cancer";
+
+// function ajouterPatient (pateint) {
+//     if (maladie = "cancer") {
+//         tableauCancer.push(pateint);
+//     }
+// }
+
+// ajouterPatient("Chadrack");
+
+// console.log(tableauCancer.length);
+
+// function factoriel(nombre) {
+//     let resultat = 1;
+//     for(i = 1; i <= nombre; i++) {
+//          resultat = resultat * i;
+//     }
+//     return resultat;
+// }
+
+// console.log(factoriel(4));
+
+//Factoriel avec While
+
+// function factoriel (nombre) {
+//     resulat = 1;
+//     i = 1;
+//     while(i <= nombre) {
+//         resulat = resulat * i;
+//         i++ ;
+//     }
+//     return resulat;
+// }
+
+// console.log(factoriel(8));
+
+let tableau = [12, 22, 42, 58, 12, 22, 56, 63, 14, 58, 12];
+let trouve;
+let nbr=0;
+
+for (i = 0; i < tableau.length; i++) {
+    if (tableau[i] === 22) {
+        trouve=tableau[i];
+        nbr+=1;
+    }
+}
+
+console.log(trouve);
+console.log(nbr);
+
